@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shapes and Table</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: separate;
+            background-color: rgb(104, 205, 205);
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        tr,
+        td {
+            border: 1px solid black;
+            text-align: start;
+            padding-right: 100px;
+            border-radius: 10px;
+        }
+
+        th {
+            border: 1px solid black;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .circle{
+            width: 70px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgb(255, 255, 255);
+            border: 4px solid;
+            border-color: rgb(90, 202, 116);
+        }
+
+        .square{
+            width: 60px;
+            height: 50px;
+            background-color: rgb(255, 255, 255);
+            border: 4px solid;
+            border-color: rgb(90, 202, 116);
+        }
+
+        .curved_square{
+            width: 60px;
+            height: 50px;
+            border-radius: 6px;
+            background-color: rgb(255, 255, 255);
+            border: 4px solid;
+            border-color:rgb(90, 202, 116);
+        }
+
+        .circled_square{
+            width: 60px;
+            height: 50px;
+            border-radius: 14px;
+            background-color: rgb(255, 255, 255);
+            border: 4px solid;
+            border-color: rgb(90, 202, 116);
+        }
+
+
+        .parallelogram_square{
+            
+            width: 60px;
+            height: 50px;
+            background-color: rgb(255, 255, 255);
+            border: 4px solid;
+            border-radius: 10px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-color: rgb(90, 202, 116);
+        }
+
+        .row1 {
+            display: flex;
+            align-items: center;
+            margin: 8px;
+            justify-content: space-evenly;
+        }
+
+        .row2 {
+            display: flex;
+            align-items: center;
+            margin: 8px;
+            justify-content: space-evenly;
+        }
+
+        .row3 {
+            display: flex;
+            align-items: center;
+            margin: 8px;
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+
+    <div class="grid">
+    <div class="row1">
+        <div class="curved_square"></div>
+        <div class="square"></div>
+        <div class="circled_square"></div>
+
+    </div>
+
+    <div class="row2">
+        <div class="curved_square"></div>
+        <div class="square"></div>
+        <div class="circled_square"></div>
+
+    </div>
+
+    <div class="row3">
+        <div class="circle"></div>
+        <div class="square"></div>
+        <div class="parallelogram_square"></div>
+
+    </div>
+</div>
+</body>
+
+</html>

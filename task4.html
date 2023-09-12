@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Data</title>
+    <style>
+      label {
+        display: inline-block;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <td><label for="fname">Full Name</label></td>
+          <td><input type="text" name="fname" /></td>
+          <br />
+        </tr>
+        <tr>
+          <td><label for="username">Username</label></td>
+          <td><input type="text" name="username" /></td>
+          <br />
+        </tr>
+        <tr>
+          <td><label for="pwd">Password</label></td>
+          <td><input type="password" name="pwd" /></td>
+          <br />
+        </tr>
+        <tr>
+          <td><label for="repwd">Re Password</label></td>
+          <td><input type="password" name="repwd" /></td>
+          <br />
+        </tr>
+        <tr>
+          <td><label for="address">Address</label></td>
+          <td><input type="text" name="address" /></td>
+          <br />
+        </tr>
+        <tr>
+          <td><label for="age">Age</label></td>
+          <td><input type="number" name="age" /></td>
+          <br />
+        </tr>
+        <tr>
+          <td><label for="gender">Gender</label></td>
+          <td><input list="gender" name="gender" /></td>
+          <datalist id="gender">
+            <option value="Male"></option>
+            <option value="Female"></option>
+          </datalist>
+        </tr>
+        <br />
+        <tr>
+          <td><input type="button" value="Save" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

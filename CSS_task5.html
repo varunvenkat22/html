@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+
+    <style>
+
+        body{
+            background-color: rgb(220, 237, 120);
+            color: brown;
+            padding-left: 11em;
+        }
+        ul {
+            position: absolute;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 150px;
+            left: 1em;
+        }
+
+        li a {
+
+            border: 1px solid black;
+            display:flex;
+            color: #000;
+            padding: 8px 16px;
+            margin: 0.5em;
+            background-color: aliceblue;
+            border-right: 1em solid black;
+
+
+        }
+
+
+        li a:hover {
+            background-color: orange;
+            color: rgb(255, 255, 255);
+        }
+
+        .active {
+            background-color: orange;
+            color: white;
+        }
+
+     
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">Bootstrap</a></li>
+        </ul>
+    </nav>
+    <h2>My First Styled Page</h2>
+    <p>Welcome to my styled Page!  <br><br>
+        It lacks images, but at least it has style. And it has links, even if they don't go anywhere..<br><br>
+        There should be more here, but I don't know what yet.
+
+        <hr>
+
+        Made 5 April 2004<br>
+        by myself.</p>
+</body>
+</html>
